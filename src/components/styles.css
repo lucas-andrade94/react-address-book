@@ -1,0 +1,118 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-style {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button-style {
+  background: black;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  margin: 0.25rem 0.25rem;
+}
+
+.button-style:hover {
+  opacity: 0.5;
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.item-content {
+  margin-top: 0.5rem;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.input {
+  margin: 0.25rem 0.25rem;
+  padding: 0 0.25rem;
+  width: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0.25rem 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input-form {
+  padding: 0.25rem 0.25rem;
+}
+
+.submit-container {
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.icons-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0.5rem 0;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 990px) {
+  .button-container {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
