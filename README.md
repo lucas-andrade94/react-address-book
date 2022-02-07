@@ -8,22 +8,24 @@
 	<a href="#-instalation">Instalation</a>
 </p>
 
-
 ## 🤖 Technologies
+
 Project developed using the following technologies:
 
 - [React](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Recoil](https://recoiljs.org/)
 
-
 ## 💿 Instalation
+
 ### Prerequisites
+
 What is necessary to have installed:
+
 - [Node](https://nodejs.org/en/download/)
 
-
 ### Run in terminal:
+
 ```
 # Clone this repository
 git clone https://github.com/lucas-andrade94/react-address-book.git
@@ -38,6 +40,6 @@ npm install
 npm start
 ```
 
-
 ### Website
-https://lucas-andrade.com/
+
+https://react-address-book-2okhsl7pf-lucas-andrade94.vercel.app/
